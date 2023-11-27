@@ -1,0 +1,70 @@
+{% extends 'Base.html' %}
+{% load static %}
+
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="block">
+        <div class="columns is-vcentered">
+            <div class="column is-half has-text-centered">
+                <div class="home-subtitle">Book Your Special</div>
+                <div class="home-title">Event<span>.</span></div>
+            </div>
+            <div class="column is-half has-text-centered">
+                <img alt="Party SVG" src="{% static 'img/party.svg' %}">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="block">
+        <div class="columns ">
+
+            <div class="column is-half has-text-centered">
+                <img alt="Party SVG" src="{% static 'img/about.svg' %}">
+            </div>
+
+            <div class="column is-half has-text-centered">
+                <div class="subtitle is-4">About</div>
+                <div class="title is-1">Tickety</div>
+                <div class="is-size-6 has-text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                    vel mattis
+                    justo. Maecenas ante erat, pharetra eu tincidunt sed, fermentum ut est. Donec tempus fringilla erat
+                    vel hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel ligula sed neque
+                    fringilla tincidunt. Proin quis nibh vitae lectus consectetur viverra. In placerat leo et justo
+                    rhoncus, et suscipit sapien mattis. Fusce pulvinar varius quam, vitae egestas elit malesuada a.
+                    Quisque eu dictum felis. Maecenas bibendum mi ut odio placerat, sed varius mi faucibus. Fusce
+                    ultricies porttitor risus ac ultricies.
+                    </br>
+                    </br>
+                    In finibus egestas elit vitae bibendum. Duis sit amet ipsum elementum, congue nulla eget, blandit
+                    ligula. In hac habitasse platea dictumst. Ut aliquam sollicitudin odio eu iaculis. Mauris ultricies
+                    lorem eu mauris molestie, quis sollicitudin elit congue. Phasellus a semper mauris. Etiam fermentum,
+                    metus eget commodo pretium, libero risus convallis velit, ut condimentum ligula ante euismod dui.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ac pellentesque risus, ut
+                    pulvinar justo. Aliquam lacinia vulputate libero vel venenatis. Pellentesque fermentum, massa ut
+                    aliquet suscipit, lectus orci iaculis leo, ac commodo ligula mauris ut eros. In molestie vehicula
+                    nisi in ullamcorper. Mauris nec ipsum ac justo malesuada rutrum ac id dolor. Aenean id lacus lorem.
+                    Fusce sagittis lorem enim, sed aliquet augue lobortis posuere.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="block">
+        <div class="column is-full has-text-centered">
+            <div class="subtitle is-4">Upcoming</div>
+            <div class="title is-1">Events</div>
+        </div>
+    </div>
+</div>
+{% endblock %}

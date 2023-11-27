@@ -1,0 +1,106 @@
+/* Custom colors */
+:root {
+  --primary: #6F9CEB;
+  --secondary: #918EF4;
+  --accent: #141B41;
+  --text: #333333;
+  --light-bg: #e6ecf9
+}
+
+/* Text color */
+body {
+  color: var(--text);
+  font-family: 'nunito',san-serif;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+}
+
+/* Buttons */
+.button.is-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.button.is-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 0.01rem solid var(--secondary);
+  color: var(--text);
+}
+
+/* Input fields */
+.input {
+  border-color: var(--accent);
+}
+
+/* Cards */
+.card {
+  background-color: var(--secondary);
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+/* Pagination */
+.pagination-link.is-current {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Modals */
+.modal {
+  background-color: var(--secondary);
+  color: var(--text);
+}
+
+/* Tables */
+.table {
+  background-color: var(--secondary);
+  color: var(--text);
+}
+
+/* Tags */
+.tag {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Progress bars */
+.progressbar {
+  background-color: var(--primary);
+}
+
+/* Dropdowns */
+.dropdown-content {
+  background-color: var(--secondary);
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+/* Toast notifications */
+.toast {
+  background-color: var(--accent);
+  color: white;
+}
+
+/* Footer */
+.footer-padding{
+padding: 1.5rem 1.5rem 2rem;
+}
+
+.home-title {
+  font-size: 6rem;
+  font-weight: 600
+}
+home-title,span{
+color: var(--primary)
+}
+.home-subtitle{
+font-size: 1.5rem;
+}

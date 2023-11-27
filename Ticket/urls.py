@@ -19,13 +19,12 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/auth/', include('UserAuth.urls')),
+    path('', include('HomePage.urls')),
 
 ]
-
 
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL,
