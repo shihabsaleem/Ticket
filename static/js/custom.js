@@ -23,3 +23,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+
+
+ // Initialize Swiper
+document.addEventListener('DOMContentLoaded', () => {
+  var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    }
+  });
+});

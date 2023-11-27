@@ -4,7 +4,7 @@
   --secondary: #918EF4;
   --accent: #141B41;
   --text: #333333;
-  --light-bg: #e6ecf9
+  --light_bg: #e6ecf9
 }
 
 /* Text color */
@@ -17,11 +17,18 @@ body {
 a {
   color: var(--primary);
 }
+a:hover{
+color: var(--secondary);
+}
 
 /* Buttons */
 .button.is-primary {
   background-color: var(--primary);
   color: white;
+}
+.button.is-primary:hover {
+  background-color: var(--light_bg);
+  color: var(--primary);
 }
 
 .button.is-secondary {
@@ -42,7 +49,7 @@ a {
 
 /* Cards */
 .card {
-  background-color: var(--secondary);
+  background-color: var(--light_bg);
   color: var(--text);
   border-color: var(--accent);
 }
@@ -53,23 +60,6 @@ a {
   color: white;
 }
 
-/* Modals */
-.modal {
-  background-color: var(--secondary);
-  color: var(--text);
-}
-
-/* Tables */
-.table {
-  background-color: var(--secondary);
-  color: var(--text);
-}
-
-/* Tags */
-.tag {
-  background-color: var(--primary);
-  color: white;
-}
 
 /* Progress bars */
 .progressbar {
@@ -104,3 +94,25 @@ color: var(--primary)
 .home-subtitle{
 font-size: 1.5rem;
 }
+
+/* swiper */
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 2rem;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
